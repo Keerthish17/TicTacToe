@@ -62,7 +62,10 @@ public static void main(String[] args) {
 		}
 		for(int i=0;i<3;i++) {
 			for(int j=0;j<3;j++) {
-				if(board[i][j]!='X'||board[i][j]!='O') {
+				if(board[i][j]!='1'||board[i][j]!='2'||board[i][j]!='3'||
+				  board[i][j]!='4'||board[i][j]!='5'||board[i][j]!='6'||
+				  board[i][j]!='7'||board[i][j]!='8'||board[i][j]!='9') {
+				
 					
 					return false;
 				}
